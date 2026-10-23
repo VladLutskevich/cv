@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vladislav Lutskevich — Frontend Developer (Angular / React)</title>
+<meta name="description" content="Frontend Developer with 4.5 years of commercial experience. Angular, React, TypeScript, RxJS, NgRx, performance optimisation for data-heavy interfaces.">
+<meta property="og:title" content="Vladislav Lutskevich — Frontend Developer">
+<meta property="og:description" content="Angular / React · TypeScript · performance and data-heavy interfaces. CV available for download.">
+<meta property="og:type" content="profile">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f7f8fa; --card:#ffffff; --ink:#111827; --muted:#5b6472;
+    --accent:#1f3a5f; --line:#e5e8ee;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0f1216; --card:#161b22; --ink:#e8ecf1; --muted:#9aa4b2;
+           --accent:#9ec1e8; --line:#242c36; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    line-height:1.55; -webkit-font-smoothing:antialiased;
+    display:flex; align-items:center; justify-content:center;
+    min-height:100vh; padding:24px;
+  }
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:16px;
+    max-width:620px; width:100%; padding:40px 40px 32px;
+    box-shadow:0 1px 2px rgba(16,24,40,.04), 0 12px 32px rgba(16,24,40,.06);
+  }
+  h1{font-size:28px; line-height:1.2; margin:0 0 6px; letter-spacing:-.02em}
+  .role{color:var(--accent); font-weight:600; font-size:15px; margin:0 0 4px}
+  .place{color:var(--muted); font-size:14px; margin:0 0 22px}
+  p.lead{font-size:15px; color:var(--ink); margin:0 0 22px}
+  .tags{display:flex; flex-wrap:wrap; gap:8px; margin:0 0 26px}
+  .tag{
+    font-size:12.5px; color:var(--muted); border:1px solid var(--line);
+    padding:4px 10px; border-radius:999px; background:transparent;
+  }
+  .actions{display:flex; flex-wrap:wrap; gap:12px; align-items:center}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    background:var(--accent); color:#fff; text-decoration:none;
+    font-weight:600; font-size:15px; padding:12px 20px; border-radius:10px;
+    transition:transform .08s ease, opacity .15s ease;
+  }
+  @media (prefers-color-scheme: dark){ .btn{color:#0f1216} }
+  .btn:hover{opacity:.92}
+  .btn:active{transform:translateY(1px)}
+  .btn.secondary{
+    background:transparent; color:var(--ink); border:1px solid var(--line); font-weight:500;
+  }
+  .links{margin-top:26px; padding-top:18px; border-top:1px solid var(--line);
+         font-size:13.5px; color:var(--muted)}
+  .links a{color:var(--muted); text-decoration:none; border-bottom:1px solid var(--line)}
+  .links a:hover{color:var(--accent); border-color:var(--accent)}
+  .sep{margin:0 8px; opacity:.5}
+  @media (max-width:520px){ .card{padding:28px 22px 22px} h1{font-size:23px} }
+</style>
+</head>
+<body>
+<main class="card">
+  <h1>Vladislav Lutskevich</h1>
+  <p class="role">Frontend Developer · Angular / React · TypeScript</p>
+  <p class="place">Minsk, Belarus · open to remote and relocation</p>
+
+  <p class="lead">
+    4.5 years of commercial experience building CRM and analytics interfaces where the data is heavy
+    and the screen has to stay fast. Angular as the main framework, React as the second, TypeScript
+    strict in both. Recently rebuilt a legacy module that could not keep up with production data
+    volumes and cut its render time by 40%.
+  </p>
+
+  <div class="tags">
+    <span class="tag">Angular</span>
+    <span class="tag">React</span>
+    <span class="tag">TypeScript</span>
+    <span class="tag">RxJS</span>
+    <span class="tag">NgRx</span>
+    <span class="tag">REST API</span>
+    <span class="tag">ag-Grid</span>
+    <span class="tag">Performance</span>
+  </div>
+
+  <div class="actions">
+    <a class="btn" href="Vladislav_Lutskevich_CV.pdf" download>
+      Download CV (PDF)
+    </a>
+    <a class="btn secondary" href="Vladislav_Lutskevich_CV.pdf" target="_blank" rel="noopener">
+      Open in browser
+    </a>
+  </div>
+
+  <div class="links">
+    <a href="mailto:vlad01309l@gmail.com">vlad01309l@gmail.com</a>
+    <span class="sep">·</span>
+    <a href="mailto:vlad01309@mail.ru">vlad01309@mail.ru</a>
+  </div>
+</main>
+</body>
+</html>
